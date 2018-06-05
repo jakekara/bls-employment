@@ -3,6 +3,8 @@ Historical, seasonally adjusted BLS employment figures by state
 FILES
 
 ALL-1991-2018.csv - spreadsheet containing the data
+		  - numbers are in thousands
+		  - here's an example: https://data.bls.gov/pdq/SurveyOutputServlet
 get_employment.py - run this to download the CSV file
 		  - Note: This won't run until you create a config.py file in
 		  the directory and set the variable API_KEY to your BLS API key
