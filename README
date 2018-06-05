@@ -1,0 +1,16 @@
+Historical, seasonally adjusted BLS employment figures by state
+
+FILES
+
+ALL-1991-2018.csv - spreadsheet containing the data
+get_employment.py - run this to download the CSV file
+		  - Note: This won't run until you create a config.py file in
+		  the directory and set the variable API_KEY to your BLS API key
+
+TODO
+
+I should test that the series IDs correspond to the correct states.
+
+
+
+
