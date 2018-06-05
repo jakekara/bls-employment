@@ -143,7 +143,7 @@ def main():
 
     """ Get the data and save it """
 
-    all_df = download_all_employment_data(start_year=1991,end_year=2018)
+    all_df = download_all_employment_data(start_year=1991,end_year=2019)
     all_df.reindex(sorted(all_df.columns), axis=1).to_csv("ALL-1991-2018.csv")
 
 if __name__ == "__main__":
